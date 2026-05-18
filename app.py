@@ -66,7 +66,7 @@ st.title("Movie Recommender System")
 
 movies = pickle.load(open('movie_list.pkl', 'rb'))
 
- import zipfile
+import zipfile
 import os
 
 if not os.path.exists("similarity.pkl"):
