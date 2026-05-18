@@ -2,4 +2,3 @@
 movieenv/
 __pycache__/
 .ipynb_checkpoints/
-similarity.pkl

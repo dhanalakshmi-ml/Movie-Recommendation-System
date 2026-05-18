@@ -66,7 +66,14 @@ st.title("Movie Recommender System")
 
 movies = pickle.load(open('movie_list.pkl', 'rb'))
 
-similarity = pickle.load(open('similarity.pkl', 'rb'))
+ import zipfile
+import os
+
+if not os.path.exists("similarity.pkl"):
+    with zipfile.ZipFile("similarity.zip", "r") as zip_ref:
+        zip_ref.extractall()
+
+similarity = pickle.load(open('similarity.pkl', 'rb'))   
 
 movie_list = movies['title'].values
 
