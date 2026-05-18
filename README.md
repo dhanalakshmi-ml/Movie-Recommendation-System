@@ -21,11 +21,7 @@ This is a Machine Learning based Movie Recommender System built using Python and
 - movie_list.pkl
 - similarity.pkl
 
-## How to Run
 
-pip install -r requirements.txt
-
-streamlit run app.py
 ## How to Run
 
 ```bash
@@ -37,6 +33,19 @@ streamlit run app.py
 
 Create a `.env` file and add:
 
-```text
+
 TMDB_API_KEY=your_api_key_here
-```
+
+
+
+
+## Screenshots
+
+### Homepage
+![Homepage](homepage.png)
+
+### Movie Selection
+![Movie Selection](movie-selection.png)
+
+### Recommendations
+![Recommendations](recommendations.png)
