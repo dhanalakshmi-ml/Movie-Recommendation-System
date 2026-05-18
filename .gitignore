@@ -1,0 +1,4 @@
+.env
+movieenv/
+__pycache__/
+.ipynb_checkpoints/
