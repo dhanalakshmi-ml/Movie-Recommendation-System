@@ -2,3 +2,4 @@
 movieenv/
 __pycache__/
 .ipynb_checkpoints/
+similarity.pklgit add .
